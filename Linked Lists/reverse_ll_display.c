@@ -34,9 +34,7 @@ void create(){
 }
 
 void display_reverse(sn *temp) {
-    if(!(temp -> next));
-    
-    else
+    if(temp -> next)
         display_reverse(temp -> next);
 
     printf("%d ", temp -> data);

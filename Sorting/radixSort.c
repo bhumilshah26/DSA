@@ -38,7 +38,7 @@ void countSort(int arr[], int n, int pos){
 }
 void radixSort(int arr[], int n){ 
     int pos, max = getMax(arr, n);
-    for(pos = 1; max/pos > 0; pos = pos * 10){  //ye mat bhulna
+    for(pos = 1; max/pos > 0; pos *= 10){  //ye mat bhulna
         countSort(arr, n, pos);
     }
 }

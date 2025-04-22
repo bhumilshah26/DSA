@@ -26,6 +26,7 @@ int pivot(int lb, int ub) {
     temp = a[end];
     a[end] = a[lb];
     a[lb] = temp;
+    printf("%d\n", a[end]);
     return end;
 }
 

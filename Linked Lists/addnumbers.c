@@ -32,7 +32,7 @@ void createNode(int x){
     sn *nn, *temp;
     nn = (sn *)malloc(sizeof(sn));
     nn -> data = x;
-    nn -> next = NULL;
+    nn -> next = NULL;  
     if(!start3)
         start3 = nn;
     else {

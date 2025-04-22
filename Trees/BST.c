@@ -146,13 +146,11 @@ void postorder(sn *temp) {
 }
 
 int height(sn* temp){
-    if(!temp)
-        return 0;
-    else {
+    if(!temp) return 0;
+     
       int  l = height(temp -> left);
       int  r = height(temp -> right);
-      return (l > r) ? (l + 1) : (r + 1);
-    }
+      return 1 + max(l, r);
 }
 
 void mirror(sn *temp){
