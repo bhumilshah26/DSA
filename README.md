@@ -9,13 +9,14 @@ C++ Language → Some more advanced algorithms and optimizations
 The goal is to create a structured, easy-to-navigate resource for practicing and revising DSA.
 
 🛠️ Contents
-📌 Data Structures
 
+
+📌 Data Structures:
 Arrays (Sliding Window, Two Pointers, Kadane's Algorithm, DNF Algorithm)
 
 Linked Lists (Singly, Doubly, Circular)
 
-Stacks (Postfix, Prefix, Infix)
+Stacks 
 
 Queues (Normal, Circular)
 
@@ -25,7 +26,8 @@ Graphs (Adjacency Matrix/List, BFS/DFS)
 
 Hash Tables
 
-📌 Algorithms
+
+📌 Algorithms:
 Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick, Radix)
 
 Searching Algorithms (Linear, Binary, Fibonacci)
@@ -40,16 +42,7 @@ Array Algorithms (Kadane's Algorithm, Dutch-National-Flag Algorithm, Moore Votin
 
 String Matching (KMP, Rabin Carp)
 
-Graph Algorithms:
-BFS/DFS
-
-Topological Sort
-
-Dijkstra’s Algorithm
-
-Bellman-Ford Algorithm
-
-Floyd-Warshall Algorithm
+Graph Algorithms (BFS/DFS, Topological Sort, Dijkstra’s Algorithm, Bellman-Ford Algorithm, Floyd-Warshall Algorithm)
 
 Kruskal’s and Prim’s MST Algorithms
 
